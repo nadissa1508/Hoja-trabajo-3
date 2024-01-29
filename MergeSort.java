@@ -1,4 +1,13 @@
-public class MergeSort{
+/**
+ * Universidad del Valle de Guatemala
+ * @author Isabella Obando Guzman, 23074
+ * @author Angie Nadissa Vela López, 23764
+ * @description clase que realiza el algoritmo de ordenamiento MergeSort
+ * codigo obtenido de https://www.baeldung.com/java-merge-sort
+ * @date creación 23/01/2024 última modificación 30/01/2024
+ */
+
+ public class MergeSort{
     public static void mergeSort(int[] a, int n) {
         if (n < 2) {
             return;

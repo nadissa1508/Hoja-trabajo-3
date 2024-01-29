@@ -1,3 +1,11 @@
+/**
+ * Universidad del Valle de Guatemala
+ * @author Isabella Obando Guzman, 23074
+ * @author Angie Nadissa Vela López, 23764
+ * @description clase que realiza el algoritmo de ordenamiento GnomeSort
+ * codigo obtenido de https://github.com/Kumar-laxmi/Algorithms/blob/main/Java/Sorting/Gnome_Sorting.java 
+ * @date creación 23/01/2024 última modificación 30/01/2024
+ */
 
 // Remove the unnecessary opening curly brace
 // {

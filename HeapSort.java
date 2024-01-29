@@ -3,6 +3,7 @@
  * @author Isabella Obando Guzman, 23074
  * @author Angie Nadissa Vela López, 23764
  * @description clase que realiza el algoritmo de ordenamiento HeapSort
+ * codigo obtenido de https://www.geeksforgeeks.org/heap-sort/ 
  * @date creación 23/01/2024 última modificación 30/01/2024
  */
 

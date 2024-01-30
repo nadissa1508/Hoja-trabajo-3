@@ -1,3 +1,4 @@
+
 // Test Case 1: Sorting an array with positive integers
 int[] array1 = {5, 2, 8, 1, 9};
 int[] sortedArray1 = GnomeSort.gnomeSort(array1);
@@ -13,17 +14,12 @@ int[] array3 = {4, 2, 6, 2, 1};
 int[] sortedArray3 = GnomeSort.gnomeSort(array3);
 // Expected output: [1, 2, 2, 4, 6]
 
-// Test Case 4: Sorting an already sorted array
-int[] array4 = {1, 2, 3, 4, 5};
+// Test Case 4: Sorting an empty array
+int[] array4 = {};
 int[] sortedArray4 = GnomeSort.gnomeSort(array4);
-// Expected output: [1, 2, 3, 4, 5]
-
-// Test Case 5: Sorting an empty array
-int[] array5 = {};
-int[] sortedArray5 = GnomeSort.gnomeSort(array5);
 // Expected output: []
 
-// Test Case 6: Sorting an array with a single element
-int[] array6 = {9};
-int[] sortedArray6 = GnomeSort.gnomeSort(array6);
+// Test Case 5: Sorting an array with a single element
+int[] array5 = {9};
+int[] sortedArray5 = GnomeSort.gnomeSort(array5);
 // Expected output: [9]

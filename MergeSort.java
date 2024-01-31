@@ -16,7 +16,7 @@
          mergeSort(array, array.length);
      }
  
-     private void mergeSort(T[] a, int n) {
+     public void mergeSort(T[] a, int n) {
          if (n < 2) {
              return;
          }
@@ -30,7 +30,7 @@
          merge(a, l, r, mid, n - mid);
      }
  
-     private void merge(T[] a, T[] l, T[] r, int left, int right) {
+     public void merge(T[] a, T[] l, T[] r, int left, int right) {
          int i = 0, j = 0, k = 0;
          while (i < left && j < right) {
              if (l[i].compareTo(r[j]) <= 0) {

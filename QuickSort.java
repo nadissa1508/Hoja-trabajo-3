@@ -16,7 +16,7 @@
          quickSort(array, 0, array.length - 1);
      }
  
-     private void quickSort(T[] arr, int begin, int end) {
+     public void quickSort(T[] arr, int begin, int end) {
          if (begin < end) {
              int partitionIndex = partition(arr, begin, end);
  
@@ -25,7 +25,7 @@
          }
      }
  
-     private int partition(T[] arr, int begin, int end) {
+     public int partition(T[] arr, int begin, int end) {
          T pivot = arr[end];
          int i = (begin - 1);
  

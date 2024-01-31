@@ -4,16 +4,13 @@ import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 public class GnomeSortTest {
 
     @Test
-    public void testEmptyArray() {
-        int[] emptyArray = new int[0];
-        assertArrayEquals(emptyArray, GnomeSort.gnomeSorting(emptyArray, 0));
-    }
+    public void positiveTest() {
+        GnomeSort<Integer> gnomeSort = new GnomeSort<>();
+        Integer[] actual = {5, 1, 6, 2, 3, 4};
+        Integer[] expected = {1, 2, 3, 4, 5, 6};
 
-    @Test
-    public void testSingleElementArray() {
-        int[] singleElementArray = {1};
-        assertArrayEquals(singleElementArray, GnomeSort.gnomeSorting(singleElementArray, 0));
-    }
+        gnomeSort.sort(actual);
 
- 
+        assertArrayEquals(expected, actual);
+    }
 }

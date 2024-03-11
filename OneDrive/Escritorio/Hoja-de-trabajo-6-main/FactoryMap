@@ -1,0 +1,19 @@
+import java.util.HashMap;
+import java.util.*;
+
+public class FactoryMap {
+
+    public static Map<String, Carta> crearMapa(String TypeMap) {
+        switch (TypeMap) {
+            case "HashMap":
+                return new HashMap<>();
+            case "TreeMap":
+                return new TreeMap<>();
+            case "LinkedHashMap":
+                return new LinkedHashMap<>();
+            default:
+                throw new IllegalArgumentException("Tipo de mapa no válido: " + TypeMap);
+        }
+    }
+
+}
